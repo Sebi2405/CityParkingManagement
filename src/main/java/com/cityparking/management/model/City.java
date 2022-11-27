@@ -52,4 +52,13 @@ public class City {
     public void setParkingFacilities(Set<ParkingFacility> parkingFacilities) {
         this.parkingFacilities = parkingFacilities;
     }
+
+    public void addParkingFacility(ParkingFacility parkingFacility) {
+        this.parkingFacilities.add(parkingFacility);
+    }
+
+    public Set<ParkingFacility> getParkingFacilities() {
+        return parkingFacilities;
+    }
+
 }
