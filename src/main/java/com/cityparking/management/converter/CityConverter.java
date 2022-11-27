@@ -5,7 +5,7 @@ import com.cityparking.management.model.City;
 
 public class CityConverter {
     public static City fromDTO(CityDTO dto) {
-        if (dto == null){
+        if (dto == null) {
             return null;
         }
         City city = new City();

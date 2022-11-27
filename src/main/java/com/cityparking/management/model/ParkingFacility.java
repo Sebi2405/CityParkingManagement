@@ -10,7 +10,7 @@ public abstract class ParkingFacility {
     @Id
     @GeneratedValue(generator = "system-uuid")
     @GenericGenerator(name = "system-uuid", strategy = "uuid")
-    protected String id;
+    private String id;
 
     @Column
     private String name;

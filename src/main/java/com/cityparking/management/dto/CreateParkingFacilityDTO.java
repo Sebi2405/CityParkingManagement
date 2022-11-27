@@ -10,7 +10,6 @@ public class CreateParkingFacilityDTO {
 
     private ParkingFacilityType type;
 
-
     public String getCityCode() {
         return cityCode;
     }
